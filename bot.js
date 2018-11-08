@@ -269,7 +269,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 
 
 client.on('message', function(message) {
-	const myID = "488334414124810240,385529907226345482,366253963768758272,432176324355031042,472078775568564234";
+	const myID = "488334414124810240";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
